@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio – Rasya Julinsa</title>
+  <meta name="description" content="Portofolio pribadi Rasya Julinsa – Ahli Rekayasa Perangkat Lunak." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- TailwindCSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .glass { background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); }
+    .shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-slate-100">
+  <main class="max-w-4xl mx-auto p-6">
+    <!-- Kartu Profil Utama -->
+    <section class="glass shadow-soft rounded-3xl p-8 md:p-12 border border-white/10">
+      <div class="flex flex-col md:flex-row items-center gap-8">
+        <!-- Foto Profil -->
+        <div class="relative">
+          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=400&auto=format&fit=crop" alt="Foto Profil Rizky" class="w-40 h-40 md:w-48 md:h-48 object-cover rounded-2xl ring-4 ring-white/10" />
+          <span class="absolute -bottom-2 -right-2 inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-semibold bg-emerald-500 text-white shadow-soft">
+            <span class="inline-block w-2 h-2 rounded-full bg-white animate-pulse"></span>
+            Tersedia untuk proyek
+          </span>
+        </div>
+
+        <!-- Info Utama -->
+        <div class="flex-1 text-center md:text-left">
+          <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight">Rasya Julinsa</h1>
+          <p class="mt-2 text-slate-300">Ahli Rekayasa Perangkat Lunak • Web & Mobile Development • Clean Architecture</p>
+
+          <!-- Tombol Kontak Cepat -->
+          <div class="mt-6 flex flex-wrap justify-center md:justify-start gap-3">
+            <a href="https://wa.me/6281234567890?text=Halo%20Rizky,%20saya%20tertarik%20dengan%20jasa%20Anda" class="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-emerald-500 hover:bg-emerald-600 text-white font-semibold transition shadow-soft" target="_blank" rel="noopener">
+              <!-- WA icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M20.52 3.48A11.84 11.84 0 0 0 12.01.5C5.66.5.5 5.66.5 12.01c0 1.97.5 3.9 1.46 5.6L.51 23.5l6.06-1.43a11.5 11.5 0 0 0 5.44 1.38h.01c6.35 0 11.51-5.16 11.51-11.51 0-3.08-1.2-5.98-3.01-7.96Zm-8.5 18.03h-.01a9.74 9.74 0 0 1-4.97-1.36l-.36-.21-3.6.85.86-3.5-.24-.37a9.8 9.8 0 0 1-1.5-5.21c0-5.41 4.41-9.82 9.83-9.82 2.62 0 5.08 1.02 6.93 2.87a9.7 9.7 0 0 1 2.87 6.94c0 5.42-4.41 9.83-9.82 9.83Zm5.4-7.35c-.3-.15-1.78-.88-2.05-.98-.27-.1-.47-.15-.67.15-.2.3-.77.98-.95 1.18-.18.2-.35.23-.65.08-.3-.15-1.27-.47-2.42-1.49a9.1 9.1 0 0 1-1.69-2.08c-.18-.3-.02-.47.13-.62.13-.13.3-.35.44-.53.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.63-.92-2.23-.24-.58-.48-.5-.67-.5l-.57-.01c-.2 0-.52.08-.8.37-.27.3-1.05 1.02-1.05 2.48 0 1.46 1.08 2.86 1.23 3.06.15.2 2.13 3.25 5.17 4.55.72.31 1.28.5 1.72.64.72.23 1.38.2 1.9.12.58-.09 1.78-.73 2.03-1.43.25-.7.25-1.3.17-1.43-.07-.13-.27-.2-.57-.35Z"/></svg>
+              WhatsApp
+            </a>
+            <a href="https://instagram.com/jlnsy_" class="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-pink-500 hover:bg-pink-600 text-white font-semibold transition shadow-soft" target="_blank" rel="noopener">
+              <!-- IG icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 1.9.25 2.4.42.6.23 1.1.5 1.6.96.46.46.73 1 .96 1.6.17.5.36 1.2.42 2.4.07 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.06 1.2-.25 1.9-.42 2.4-.23.6-.5 1.1-.96 1.6-.46.46-1 .73-1.6.96-.5.17-1.2.36-2.4.42-1.3.07-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.06-1.9-.25-2.4-.42-.6-.23-1.1-.5-1.6-.96-.46-.46-.73-1-.96-1.6-.17-.5-.36-1.2-.42-2.4C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.06-1.2.25-1.9.42-2.4.23-.6.5-1.1.96-1.6.46-.46 1-.73 1.6-.96.5-.17 1.2-.36 2.4-.42C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.8.07-1 .05-1.6.22-2 .36-.5.19-.8.4-1.2.74-.34.34-.56.66-.74 1.2-.14.36-.31 1-.36 2-.07 1.3-.07 1.7-.07 4.8s0 3.5.07 4.8c.05 1 .22 1.6.36 2 .19.5.4.8.74 1.2.34.34.66.56 1.2.74.36.14 1 .31 2 .36 1.3.07 1.7.07 4.8.07s3.5 0 4.8-.07c1-.05 1.6-.22 2-.36.5-.19.8-.4 1.2-.74.34-.34.56-.66.74-1.2.14-.36.31-1 .36-2 .07-1.3.07-1.7.07-4.8s0-3.5-.07-4.8c-.05-1-.22-1.6-.36-2-.19-.5-.4-.8-.74-1.2a3.2 3.2 0 0 0-1.2-.74c-.36-.14-1-.31-2-.36-1.3-.07-1.7-.07-4.8-.07Zm0 2.7a6.3 6.3 0 1 1 0 12.6 6.3 6.3 0 0 1 0-12.6Zm0 1.8a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Zm6.6-2.1a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1Z"/></svg>
+              Instagram
+            </a>
+            <a href="tel:+6281234567890" class="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-blue-500 hover:bg-blue-600 text-white font-semibold transition shadow-soft">
+              <!-- Phone icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M6.62 10.79a15.47 15.47 0 0 0 6.59 6.59l2.2-2.2c.27-.27.66-.36 1-.24 1.1.36 2.27.55 3.49.55.55 0 1 .45 1 1V21c0 .55-.45 1-1 1C10.4 22 2 13.6 2 3c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.22.19 2.39.55 3.49.11.34.03.73-.24 1l-2.2 2.3Z"/></svg>
+              Telepon
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ringkasan -->
+      <p class="mt-8 text-slate-200 leading-relaxed">
+        Saya seorang <span class="font-semibold">Software Engineer</span> yang fokus pada pembuatan aplikasi web dan mobile yang cepat, aman, dan mudah dipelihara.
+        Berpengalaman dengan TypeScript, React, Next.js, Node.js, serta arsitektur bersih dan praktik DevOps modern.
+      </p>
+    </section>
+
+    <!-- Bagian Proyek -->
+    <section class="mt-10 grid gap-6 md:grid-cols-2">
+      <article class="glass shadow-soft rounded-3xl p-6 border border-white/10">
+        <div class="flex items-center justify-between">
+          <h2 class="text-xl font-bold">Proyek Unggulan #1</h2>
+          <span class="text-xs px-2 py-1 rounded-full bg-white/10">Web App</span>
+        </div>
+        <p class="mt-3 text-slate-300">Deskripsi singkat proyek. Jelaskan tujuan, peran Anda, dan dampaknya.</p>
+        <a href="#" class="mt-4 inline-block text-sm font-semibold hover:underline">Lihat Demo →</a>
+      </article>
+
+      <article class="glass shadow-soft rounded-3xl p-6 border border-white/10">
+        <div class="flex items-center justify-between">
+          <h2 class="text-xl font-bold">Proyek Unggulan #2</h2>
+          <span class="text-xs px-2 py-1 rounded-full bg-white/10">Mobile App</span>
+        </div>
+        <p class="mt-3 text-slate-300">Deskripsi singkat proyek lainnya. Tampilkan teknologi dan hasil metrik.</p>
+        <a href="#" class="mt-4 inline-block text-sm font-semibold hover:underline">Lihat Repo →</a>
+      </article>
+    </section>
+
+    <!-- Bagian Kontak Detail -->
+    <section class="mt-10 glass shadow-soft rounded-3xl p-6 border border-white/10">
+      <h3 class="text-lg font-bold">Kontak</h3>
+      <ul class="mt-4 space-y-3 text-slate-200">
+        <li class="flex items-center gap-3">
+          <span class="inline-flex w-8 h-8 items-center justify-center rounded-xl bg-white/10">📱</span>
+          <a class="hover:underline" href="tel:+6281234567890">+62 812-3456-7890</a>
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="inline-flex w-8 h-8 items-center justify-center rounded-xl bg-white/10">💬</span>
+          <a class="hover:underline" target="_blank" rel="noopener" href="https://wa.me/6281234567890?text=Halo%20Rizky">Chat WhatsApp</a>
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="inline-flex w-8 h-8 items-center justify-center rounded-xl bg-white/10">📸</span>
+          <a class="hover:underline" target="_blank" rel="noopener" href="https://instagram.com/jlnsy_">instagram.com/jlnsy_</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-10 text-center text-sm text-slate-400">
+      © <span id="year"></span> Rasya Julinsa. Dibuat dengan ♥.
+    </footer>
+  </main>
+
+  <script>
+    // Tahun otomatis
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
